@@ -1,13 +1,13 @@
 // Task 2
 changeBg = (box) => {
     if (box === "box1") {
-        document.getElementById('img1').style.backgroundImage = "url('1.jpeg')";
+        document.getElementById('img1').style.backgroundImage = "url('./assets/1.jpeg')";
         document.getElementById(box).style.cursor = "pointer";
     } else if (box === "box2") {
-        document.getElementById('img1').style.backgroundImage = "url('2.jpeg')";
+        document.getElementById('img1').style.backgroundImage = "url('./assets/2.jpeg')";
         document.getElementById(box).style.cursor = "pointer";
     } else if (box === "box3") {
-        document.getElementById('img1').style.backgroundImage = "url('3.png')";
+        document.getElementById('img1').style.backgroundImage = "url('./assets/3.png')";
         document.getElementById(box).style.cursor = "pointer";
     } else {
         document.getElementById('img1').style.backgroundImage = "none";
